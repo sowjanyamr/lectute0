@@ -1,0 +1,56 @@
+body {
+    font-family: sans-serif;
+}
+
+h1 {
+  font-weight: bold;
+
+}
+.parastyle
+{
+  font-size: 20px,
+  font-color: #302e2f;
+  margin: 30px;
+  padding-left: 10px;
+}
+#img1 ,#list1{
+  float: left;
+  margin: 10px;
+}
+
+h1,table{
+text-align: center;
+}
+table , .cell{
+border: 3px solid blue;
+margin: 10px;
+padding: 10px;
+
+}
+.highlight
+{
+font-variant: small-caps;
+color: red;
+}
+@media (min-width : 500px) {
+
+  body {
+    background-color: #f2d8e4;
+  }
+
+}
+@media (max-width : 499px){
+  body {
+    background-color: #cedcf2;
+
+  }
+}
+#dinnertable th,
+#dinnertable td
+{
+  border: 3px solid black;
+}
+
+
+
+/*media and bootstrap*/
