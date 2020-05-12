@@ -13,9 +13,11 @@ h1 {
   margin: 30px;
   padding-left: 10px;
 }
-#img1 ,#list1{
-  float: left;
-  margin: 10px;
+/*to place image in the center*/
+#img1 {
+  display: block;
+  margin: 0 auto;
+
 }
 
 h1,table{
@@ -27,11 +29,17 @@ margin: 10px;
 padding: 10px;
 
 }
+/*to place table at center*/
+.breakfasttable
+{
+ margin: 0 auto;
+}
 .highlight
 {
 font-variant: small-caps;
 color: red;
 }
+/*media */
 @media (min-width : 500px) {
 
   body {
