@@ -1,7 +1,9 @@
+$fontfamily: sans-serif;
+$primarycolor: #f2d8e4;
 body
 {
-    font-family: sans-serif;
-    font-size: 20px;
+    font-family:$fontfamily;
+    background-color: $primarycolor;
     p
     {
       font-color :cyan;
